@@ -1,0 +1,101 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      VIRTOGRAMMA
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-card>
+    <ion-img src="/src/app/suluguni/img/toprest.jpg"></ion-img>
+    <ion-card-header>
+        <ion-card-title>SULUGUNI</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+        <p>ПЕР. МУЗЕЙНЫЙ 10</p>
+    </ion-card-content>
+</ion-card>
+
+<ion-grid>
+ <ion-row>
+	<ion-col>
+		<ion-card>
+    <ion-img src="/src/app/suluguni/img/toprest.jpg"></ion-img>
+    <ion-card-header>
+        <ion-card-title>SULUGUNI</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+        <p>ПЕР. МУЗЕЙНЫЙ 10</p>
+    </ion-card-content>
+</ion-card>
+	</ion-col>
+
+	<ion-col>
+		<ion-card>
+    <ion-img src="/src/app/suluguni/img/toprest.jpg"></ion-img>
+    <ion-card-header>
+        <ion-card-title>SULUGUNI</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+        <p>ПЕР. МУЗЕЙНЫЙ 10</p>
+    </ion-card-content>
+</ion-card>
+	</ion-col>	
+	
+ </ion-row>
+  <ion-row>
+	<ion-col>
+		<ion-card>
+    <ion-img src="/src/app/suluguni/img/toprest.jpg"></ion-img>
+    <ion-card-header>
+        <ion-card-title>SULUGUNI</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+        <p>ПЕР. МУЗЕЙНЫЙ 10</p>
+    </ion-card-content>
+</ion-card>
+	</ion-col>
+
+	<ion-col>
+		<ion-card>
+    <ion-img src="/src/app/suluguni/img/toprest.jpg"></ion-img>
+    <ion-card-header>
+        <ion-card-title>SULUGUNI</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+        <p>ПЕР. МУЗЕЙНЫЙ 10</p>
+    </ion-card-content>
+</ion-card>
+	</ion-col>	
+	
+ </ion-row>
+  <ion-row>
+	<ion-col>
+		<ion-card>
+    <ion-img src="/src/app/suluguni/img/toprest.jpg"></ion-img>
+    <ion-card-header>
+        <ion-card-title>SULUGUNI</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+        <p>ПЕР. МУЗЕЙНЫЙ 10</p>
+    </ion-card-content>
+</ion-card>
+	</ion-col>
+
+	<ion-col>
+		<ion-card>
+    <ion-img src="/src/app/suluguni/img/toprest.jpg"></ion-img>
+    <ion-card-header>
+        <ion-card-title>SULUGUNI</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+        <p>ПЕР. МУЗЕЙНЫЙ 10</p>
+    </ion-card-content>
+</ion-card>
+	</ion-col>	
+	
+ </ion-row>
+</ion-grid>

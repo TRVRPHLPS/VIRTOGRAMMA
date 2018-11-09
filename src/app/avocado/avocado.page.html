@@ -1,0 +1,88 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>AVOCADO</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+<!--<iframe width="100%" height="100%" frameborder="0" src="https://virtogramma.com/avocado"></iframe>-->
+
+
+<iframe width='100%' style="height:50vh" src='https://my.matterport.com/show/?m=uKirXzUCvq8&play=1&lang=ru' frameborder='0' allowfullscreen allow='vr'></iframe>
+
+<ion-slides >
+  <ion-slide>
+    <ion-input clearInput placeholder="Ваше Имя"></ion-input>
+  </ion-slide>
+
+  <ion-slide>
+    <ion-label color = "primary" fixed>Ваш телефон</ion-label>
+    <ion-input clearInput required="true" type = "tel" placeholder = "Ваш Телефон"></ion-input>
+  </ion-slide>
+
+  <ion-slide>
+    <ion-input clearInput type="number" maxlength="2" placeholder="Номер Столика"></ion-input>
+  </ion-slide>
+
+  <ion-slide>
+   <ion-item>
+    <ion-label>Date</ion-label>
+    <ion-datetime display-format="MMM DD, YYYY HH:mm"></ion-datetime>
+   </ion-item>
+  </ion-slide>
+</ion-slides>
+<div align="center">
+<ion-button type="sumbit"  (click)="pervSlide()" color="warning">Назад</ion-button>
+<ion-button type="sumbit"  (click)="nextSlide()" color="warning">Далее</ion-button>
+</div>
+
+<ion-list>
+  <ion-item text-center href="https://goo.gl/maps/YLhX36AAGC22">
+    <ion-icon color="warning" name="pin"></ion-icon>
+    <ion-label>УЛ. ИНСТИТУТСКАЯ 27/6</ion-label>
+  </ion-item>
+  <ion-item text-center href="tel:095%20434%204788" >
+    <ion-icon color="warning" name="call"></ion-icon>
+    <ion-label>+38(095)-434-47-88</ion-label>
+  </ion-item>
+</ion-list>
+
+<ion-button expand="block" disabled="true" text-center block color="warning" style="color:white;">ОПИСАНИЕ</ion-button>
+
+<ion-label text-center>“Ресторан АВОКАДО – это новое заведение в самом центре города, среди ключевых особенностей ресторана стоит отметить хорошую кухню и множество блюд с добавлением авокадо. Ресторан отлично подойдёт для лёгкого завтрака, деловой встречи на обед и для сытного ужина в компании друзей. Светлый позитивный интерьер первого зала и пастельные кофейные тона, используемые в оформлении интерьера во втром зале, позволят Вам выбрать уютный столик и отлично отдохнуть.”
+</ion-label>
+<div text-right>Фирменное Блюдо – Аво Биф</div>
+<div text-right>Средний Чек – 295грн</div>
+<div text-right>Оценка VIRTOGRAMMA – 4/5</div>
+
+<ion-button expand="block" disabled="true" text-center block color="warning" style="color:white;">ГАЛЕРЕЯ</ion-button>
+
+<ion-slides>
+  <ion-slide>
+   <ion-img cache="true" src="https://virtogramma.com/wp-content/uploads/2018/08/a4.jpg"></ion-img>
+  </ion-slide>
+
+  <ion-slide>
+  <ion-img cache="true"  src="https://virtogramma.com/wp-content/uploads/2018/08/a3.jpg"></ion-img>
+  </ion-slide>
+</ion-slides>
+
+<ion-button expand="block" disabled="true" text-center block color="warning" style="color:white;">МЕНЮ</ion-button>
+
+<ion-slides>
+  <ion-slide>
+  <p>ВЫПИТЬ</p>
+  </ion-slide>
+
+  <ion-slide>
+  <p>ПОКУШАТЬ</p>
+  </ion-slide>
+</ion-slides>
+
+<ion-button expand="block" disabled="true" text-center block color="warning" style="color:white;">РЕЙТИНГ</ion-button>
+
+</ion-content>
